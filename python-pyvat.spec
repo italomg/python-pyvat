@@ -6,7 +6,7 @@ Version:    1.3.15
 Release:    1%{?dist}
 Summary:    VAT validation and calculation for Python
 License:    ASL 2.0
-Source0:    https://github.com/%{owner}/%{sname}/archive/refs/tags/v%{version}.tar.gz
+Source0:    https://github.com/%{owner}/%{sname}/archive/v%{version}/%{sname}-%{version}.tar.gz
 URL:        https://github.com/%{owner}/%{sname}
 BuildArch:  noarch
 
