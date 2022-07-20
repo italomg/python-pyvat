@@ -42,11 +42,10 @@ Iconfinder's marketplace to handle just this problem.
 %pyproject_save_files %{sname}
 
 # check
-# These tests require unittest2 to run as the project is compatible with Ptyhon 2 versions
+# These tests require unittest2 to run as the project is compatible with Python 2 versions
 # unittest2 was intentially removed from Fedora repositories see https://bugzilla.redhat.com/show_bug.cgi?id=1794222
 
 %files -n python3-%{sname} -f %{pyproject_files}
-%license LICENSE
 %doc README.rst
 
 %changelog
